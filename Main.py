@@ -1,7 +1,8 @@
 import random
 import math
 
-#Create the possible prime number candidates between 1M and 10M to be used in our primality tests
+#Create the possible prime number candidates between 1M and 10M 
+#These will be used as input in fermats_theorem
 def create_candidates(n = 1000000):
     candidates = []
     x = 0
